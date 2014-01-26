@@ -1,0 +1,1025 @@
+2014-01-25 14:43:27 DEBUG StandardEnvironment:112 - Initializing new StandardEnvironment
+2014-01-25 14:43:27 DEBUG StandardEnvironment:107 - Adding [systemProperties] PropertySource with lowest search precedence
+2014-01-25 14:43:27 DEBUG StandardEnvironment:107 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-01-25 14:43:27 DEBUG StandardEnvironment:116 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-01-25 14:43:27 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 14:43:27 IST 2014]; root of context hierarchy
+2014-01-25 14:43:27 DEBUG StandardEnvironment:112 - Initializing new StandardEnvironment
+2014-01-25 14:43:27 DEBUG StandardEnvironment:107 - Adding [systemProperties] PropertySource with lowest search precedence
+2014-01-25 14:43:27 DEBUG StandardEnvironment:107 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-01-25 14:43:27 DEBUG StandardEnvironment:116 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-01-25 14:43:27 DEBUG StandardEnvironment:112 - Initializing new StandardEnvironment
+2014-01-25 14:43:27 DEBUG StandardEnvironment:107 - Adding [systemProperties] PropertySource with lowest search precedence
+2014-01-25 14:43:27 DEBUG StandardEnvironment:107 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-01-25 14:43:27 DEBUG StandardEnvironment:116 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-01-25 14:43:27 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 14:43:27 DEBUG DefaultDocumentLoader:72 - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2014-01-25 14:43:27 DEBUG PluggableSchemaResolver:140 - Loading schema mappings from [META-INF/spring.schemas]
+2014-01-25 14:43:27 DEBUG PluggableSchemaResolver:146 - Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/data/mongo/spring-mongo.xsd=org/springframework/data/mongodb/config/spring-mongo-1.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/data/mongo/spring-mongo-1.2.xsd=org/springframework/data/mongodb/config/spring-mongo-1.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/data/repository/spring-repository-1.5.xsd=org/springframework/data/repository/config/spring-repository-1.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/data/mongo/spring-mongo-1.1.xsd=org/springframework/data/mongodb/config/spring-mongo-1.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/data/repository/spring-repository-1.4.xsd=org/springframework/data/repository/config/spring-repository-1.4.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/data/repository/spring-repository.xsd=org/springframework/data/repository/config/spring-repository-1.5.xsd, http://www.springframework.org/schema/data/mongo/spring-mongo-1.0.xsd=org/springframework/data/mongodb/config/spring-mongo-1.0.xsd, http://www.springframework.org/schema/data/repository/spring-repository-1.0.xsd=org/springframework/data/repository/config/spring-repository-1.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+2014-01-25 14:43:27 DEBUG PluggableSchemaResolver:118 - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2014-01-25 14:43:27 DEBUG PluggableSchemaResolver:118 - Found XML schema [http://www.springframework.org/schema/data/mongo/spring-mongo-1.0.xsd] in classpath: org/springframework/data/mongodb/config/spring-mongo-1.0.xsd
+2014-01-25 14:43:27 DEBUG PluggableSchemaResolver:118 - Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+2014-01-25 14:43:27 DEBUG PluggableSchemaResolver:118 - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+2014-01-25 14:43:27 DEBUG PluggableSchemaResolver:118 - Found XML schema [http://www.springframework.org/schema/data/repository/spring-repository-1.0.xsd] in classpath: org/springframework/data/repository/config/spring-repository-1.0.xsd
+2014-01-25 14:43:27 DEBUG DefaultBeanDefinitionDocumentReader:108 - Loading bean definitions
+2014-01-25 14:43:27 DEBUG DefaultNamespaceHandlerResolver:156 - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/data/mongo=org.springframework.data.mongodb.config.MongoNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/data/repository=org.springframework.data.repository.config.RepositoryNameSpaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2014-01-25 14:43:27 DEBUG XmlBeanDefinitionReader:216 - Loaded 20 bean definitions from location pattern [spring-config.xml]
+2014-01-25 14:43:27 DEBUG ClassPathXmlApplicationContext:540 - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@79011694: org.springframework.beans.factory.support.DefaultListableBeanFactory@50db6d37: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 14:43:27 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'org.springframework.beans.factory.config.CustomEditorConfigurer#0'
+2014-01-25 14:43:27 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'org.springframework.beans.factory.config.CustomEditorConfigurer#0'
+2014-01-25 14:43:27 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'org.springframework.beans.factory.config.CustomEditorConfigurer#0' to allow for resolving potential circular references
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'org.springframework.beans.factory.config.CustomEditorConfigurer#0'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'org.springframework.beans.factory.config.CustomEditorConfigurer#1'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'org.springframework.beans.factory.config.CustomEditorConfigurer#1'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'org.springframework.beans.factory.config.CustomEditorConfigurer#1' to allow for resolving potential circular references
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'org.springframework.beans.factory.config.CustomEditorConfigurer#1'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'org.springframework.beans.factory.config.CustomEditorConfigurer#2'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'org.springframework.beans.factory.config.CustomEditorConfigurer#2'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'org.springframework.beans.factory.config.CustomEditorConfigurer#2' to allow for resolving potential circular references
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'org.springframework.beans.factory.config.CustomEditorConfigurer#2'
+2014-01-25 14:43:28 DEBUG ClassPathXmlApplicationContext:807 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@38250a08]
+2014-01-25 14:43:28 DEBUG ClassPathXmlApplicationContext:831 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@374774fd]
+2014-01-25 14:43:28 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@50db6d37: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'mongo'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'mongo'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'mongo' to allow for resolving potential circular references
+2014-01-25 14:43:28 DEBUG StandardEnvironment:112 - Initializing new StandardEnvironment
+2014-01-25 14:43:28 DEBUG StandardEnvironment:107 - Adding [systemProperties] PropertySource with lowest search precedence
+2014-01-25 14:43:28 DEBUG StandardEnvironment:107 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-01-25 14:43:28 DEBUG StandardEnvironment:116 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-01-25 14:43:28 DEBUG StandardEnvironment:112 - Initializing new StandardEnvironment
+2014-01-25 14:43:28 DEBUG StandardEnvironment:107 - Adding [systemProperties] PropertySource with lowest search precedence
+2014-01-25 14:43:28 DEBUG StandardEnvironment:107 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-01-25 14:43:28 DEBUG StandardEnvironment:116 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-01-25 14:43:28 DEBUG StandardEnvironment:112 - Initializing new StandardEnvironment
+2014-01-25 14:43:28 DEBUG StandardEnvironment:107 - Adding [systemProperties] PropertySource with lowest search precedence
+2014-01-25 14:43:28 DEBUG StandardEnvironment:107 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-01-25 14:43:28 DEBUG StandardEnvironment:116 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-01-25 14:43:28 DEBUG StandardEnvironment:112 - Initializing new StandardEnvironment
+2014-01-25 14:43:28 DEBUG StandardEnvironment:107 - Adding [systemProperties] PropertySource with lowest search precedence
+2014-01-25 14:43:28 DEBUG StandardEnvironment:107 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-01-25 14:43:28 DEBUG StandardEnvironment:116 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-01-25 14:43:28 DEBUG StandardEnvironment:112 - Initializing new StandardEnvironment
+2014-01-25 14:43:28 DEBUG StandardEnvironment:107 - Adding [systemProperties] PropertySource with lowest search precedence
+2014-01-25 14:43:28 DEBUG StandardEnvironment:107 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2014-01-25 14:43:28 DEBUG StandardEnvironment:116 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:1498 - Invoking afterPropertiesSet() on bean with name 'mongo'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'mongo'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:245 - Returning cached instance of singleton bean 'org.springframework.beans.factory.config.CustomEditorConfigurer#0'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:245 - Returning cached instance of singleton bean 'org.springframework.beans.factory.config.CustomEditorConfigurer#1'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:245 - Returning cached instance of singleton bean 'org.springframework.beans.factory.config.CustomEditorConfigurer#2'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'mongoDbFactory'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'mongoDbFactory'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean '(inner bean)'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:1498 - Invoking afterPropertiesSet() on bean with name '(inner bean)'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean '(inner bean)'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'mongoDbFactory' to allow for resolving potential circular references
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'mongoDbFactory'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'mongoTemplate'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'mongoTemplate'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:245 - Returning cached instance of singleton bean 'mongoDbFactory'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'mongoTemplate' to allow for resolving potential circular references
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'mongoTemplate'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'data'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'data'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'data' to allow for resolving potential circular references
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'data'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'insertRfid'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'insertRfid'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'insertRfid' to allow for resolving potential circular references
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'insertRfid'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'rfid'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'rfid'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'rfid' to allow for resolving potential circular references
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'rfid'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'driverRfid'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'driverRfid'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'driverRfid' to allow for resolving potential circular references
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'driverRfid'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'morningSession'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'morningSession'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'morningSession' to allow for resolving potential circular references
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'morningSession'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'rfid_info'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'rfid_info'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'rfid_info' to allow for resolving potential circular references
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'rfid_info'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'driver_info'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'driver_info'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'driver_info' to allow for resolving potential circular references
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'driver_info'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'studentMorningSession'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'studentMorningSession'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'studentMorningSession' to allow for resolving potential circular references
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'studentMorningSession'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'morning'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'morning'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'morning' to allow for resolving potential circular references
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'morning'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'evening'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'evening'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'evening' to allow for resolving potential circular references
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'evening'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'processGPS'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'processGPS'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'processGPS' to allow for resolving potential circular references
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'processGPS'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'map'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'map'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'map' to allow for resolving potential circular references
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'map'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'id'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'id'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'id' to allow for resolving potential circular references
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'id'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:217 - Creating shared instance of singleton bean 'oneday'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:430 - Creating instance of bean 'oneday'
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:504 - Eagerly caching bean 'oneday' to allow for resolving potential circular references
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:458 - Finished creating instance of bean 'oneday'
+2014-01-25 14:43:28 DEBUG ClassPathXmlApplicationContext:858 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@26a6fc57]
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:245 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2014-01-25 14:43:28 DEBUG PropertySourcesPropertyResolver:70 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2014-01-25 14:43:28 DEBUG PropertySourcesPropertyResolver:70 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2014-01-25 14:43:28 DEBUG PropertySourcesPropertyResolver:93 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2014-01-25 14:43:28 DEBUG DefaultListableBeanFactory:245 - Returning cached instance of singleton bean 'mongoTemplate'
+2014-01-25 14:43:28 INFO  Main:24 - created server --> server listening.....
+2014-01-25 14:43:42 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2f39c244: startup date [Sat Jan 25 14:43:42 IST 2014]; root of context hierarchy
+2014-01-25 14:43:42 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 14:43:42 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@678f3997: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 14:43:43 INFO  Main:24 - created server --> server listening.....
+2014-01-25 15:30:52 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2f39c244: startup date [Sat Jan 25 15:30:52 IST 2014]; root of context hierarchy
+2014-01-25 15:30:52 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 15:30:53 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@53267449: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 15:30:53 INFO  Main:24 - created server --> server listening.....
+2014-01-25 15:31:01 INFO  Main:33 - connection Established with --> /127.0.0.1:50550
+2014-01-25 15:31:01 INFO  ServerThread:64 - Data Received is [ R,0004716436 ]
+2014-01-25 15:31:01 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 15:31:01 INFO  InsertRfidData:270 - created morning outbound for 0004716436
+2014-01-25 15:31:01 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50550 ] Thread-3 terminated abruptly
+2014-01-25 15:31:01 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 15:31:17 INFO  Main:33 - connection Established with --> /84.64.60.96:60374
+2014-01-25 15:31:24 INFO  ServerThread:84 - Data Received is [ G,,,,,002123.304,V,N*7F ]
+2014-01-25 15:31:24 INFO  ProcessGPS:21 - G,,,,,002123.304,V,N*7F
+2014-01-25 15:31:24 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,002123.304,V,N*7F ]
+2014-01-25 15:31:24 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 15:31:24 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 15:31:58 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 15:31:58 IST 2014]; root of context hierarchy
+2014-01-25 15:31:58 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 15:31:58 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@678f3997: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 15:31:58 INFO  Main:24 - created server --> server listening.....
+2014-01-25 15:32:20 INFO  Main:33 - connection Established with --> /127.0.0.1:50579
+2014-01-25 15:32:20 INFO  ServerThread:64 - Data Received is [ R,0004716436 ]
+2014-01-25 15:32:20 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 15:32:20 INFO  InsertRfidData:295 - Today there is no Session..
+2014-01-25 15:32:20 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50579 ] Thread-3 terminated abruptly
+2014-01-25 15:32:20 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 15:32:55 INFO  Main:33 - connection Established with --> /127.0.0.1:50589
+2014-01-25 15:32:55 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 15:32:55 INFO  InsertRfidData:304 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 15:32:55 INFO  InsertRfidData:389 - Created Morning in bound for driver with RFID [ 0003477032 ]
+2014-01-25 15:32:55 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50589 ] Thread-4 terminated abruptly
+2014-01-25 15:32:55 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 15:33:14 INFO  Main:33 - connection Established with --> /127.0.0.1:50591
+2014-01-25 15:33:14 INFO  ServerThread:64 - Data Received is [ R,0004716436 ]
+2014-01-25 15:33:14 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 15:33:14 INFO  ServerThread:94 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:32:55, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 15:33:14 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50591 ] Thread-5 terminated abruptly
+2014-01-25 15:33:14 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 15:33:52 INFO  Main:33 - connection Established with --> /127.0.0.1:50593
+2014-01-25 15:33:52 INFO  ServerThread:64 - Data Received is [ R,0004716436 ]
+2014-01-25 15:33:52 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 15:33:52 INFO  ServerThread:94 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:32:55, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 15:33:52 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50593 ] Thread-6 terminated abruptly
+2014-01-25 15:33:52 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 15:35:02 INFO  Main:33 - connection Established with --> /127.0.0.1:50595
+2014-01-25 15:35:02 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 15:35:02 INFO  InsertRfidData:304 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 15:35:02 INFO  ServerThread:94 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:32:55, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 15:35:02 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50595 ] Thread-7 terminated abruptly
+2014-01-25 15:35:02 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 15:35:15 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 15:35:15 IST 2014]; root of context hierarchy
+2014-01-25 15:35:15 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 15:35:16 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5174e73d: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 15:35:16 INFO  Main:24 - created server --> server listening.....
+2014-01-25 15:35:22 INFO  Main:33 - connection Established with --> /127.0.0.1:50597
+2014-01-25 15:35:22 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 15:35:22 INFO  InsertRfidData:304 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 15:35:22 INFO  ServerThread:94 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:32:55, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 15:35:22 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50597 ] Thread-3 terminated abruptly
+2014-01-25 15:35:22 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 15:37:45 INFO  Main:33 - connection Established with --> /127.0.0.1:50602
+2014-01-25 15:37:45 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 15:37:45 INFO  InsertRfidData:304 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 15:37:45 INFO  InsertRfidData:389 - Created Morning in bound for driver with RFID [ 0003477032 ]
+2014-01-25 15:37:45 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50602 ] Thread-4 terminated abruptly
+2014-01-25 15:37:45 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 15:37:59 INFO  Main:33 - connection Established with --> /127.0.0.1:50604
+2014-01-25 15:37:59 INFO  ServerThread:64 - Data Received is [ R,0004716436 ]
+2014-01-25 15:37:59 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 15:37:59 INFO  ServerThread:94 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 15:37:59 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50604 ] Thread-5 terminated abruptly
+2014-01-25 15:37:59 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 15:44:58 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2f39c244: startup date [Sat Jan 25 15:44:58 IST 2014]; root of context hierarchy
+2014-01-25 15:44:58 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 15:44:59 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@12baa77e: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 15:44:59 INFO  Main:24 - created server --> server listening.....
+2014-01-25 15:45:08 INFO  Main:33 - connection Established with --> /127.0.0.1:50608
+2014-01-25 15:45:08 INFO  ServerThread:64 - Data Received is [ R,0004716436 ]
+2014-01-25 15:45:08 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 15:45:08 INFO  ServerThread:94 - Exception with data ... Exception type [java.util.ArrayList cannot be cast to com.client.data.driver_info ]
+2014-01-25 15:45:08 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50608 ] Thread-3 terminated abruptly
+2014-01-25 15:45:08 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 15:46:22 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 15:46:22 IST 2014]; root of context hierarchy
+2014-01-25 15:46:22 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 15:46:23 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@181090c0: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 15:46:23 INFO  Main:24 - created server --> server listening.....
+2014-01-25 15:46:38 INFO  Main:33 - connection Established with --> /127.0.0.1:50611
+2014-01-25 15:46:38 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 15:46:39 INFO  InsertRfidData:304 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 15:46:39 INFO  ServerThread:94 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 15:46:39 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50611 ] Thread-3 terminated abruptly
+2014-01-25 15:46:39 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 15:48:10 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 15:48:10 IST 2014]; root of context hierarchy
+2014-01-25 15:48:10 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 15:48:11 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@678f3997: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 15:48:11 INFO  Main:24 - created server --> server listening.....
+2014-01-25 15:48:23 INFO  Main:33 - connection Established with --> /127.0.0.1:50616
+2014-01-25 15:48:23 INFO  ServerThread:64 - Data Received is [ R,0004716436 ]
+2014-01-25 15:48:23 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 15:48:23 INFO  ServerThread:94 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 15:48:23 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50616 ] Thread-3 terminated abruptly
+2014-01-25 15:48:23 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 15:51:50 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 15:51:50 IST 2014]; root of context hierarchy
+2014-01-25 15:51:50 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 15:51:50 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5174e73d: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 15:51:51 INFO  Main:27 - Cannot create server with port [ 10000 ] , PORT already in use!
+2014-01-25 15:51:56 INFO  Main:33 - connection Established with --> /127.0.0.1:50623
+2014-01-25 15:51:56 INFO  ServerThread:64 - Data Received is [ R,0004716436 ]
+2014-01-25 15:51:56 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 15:51:56 INFO  ServerThread:94 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 15:51:56 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50623 ] Thread-4 terminated abruptly
+2014-01-25 15:51:56 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 15:52:02 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2f39c244: startup date [Sat Jan 25 15:52:02 IST 2014]; root of context hierarchy
+2014-01-25 15:52:02 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 15:52:02 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@163198c4: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 15:52:02 INFO  Main:24 - created server --> server listening.....
+2014-01-25 15:52:05 INFO  Main:33 - connection Established with --> /127.0.0.1:50625
+2014-01-25 15:52:05 INFO  ServerThread:64 - Data Received is [ R,0004716436 ]
+2014-01-25 15:52:05 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 15:52:05 INFO  ServerThread:94 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 15:52:05 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50625 ] Thread-3 terminated abruptly
+2014-01-25 15:52:05 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 15:54:00 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 15:54:00 IST 2014]; root of context hierarchy
+2014-01-25 15:54:00 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 15:54:00 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@181090c0: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 15:54:01 INFO  Main:24 - created server --> server listening.....
+2014-01-25 15:54:08 INFO  Main:33 - connection Established with --> /127.0.0.1:50627
+2014-01-25 15:54:08 INFO  ServerThread:64 - Data Received is [ R,0004716436 ]
+2014-01-25 15:54:08 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 15:54:08 INFO  ServerThread:94 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 15:54:08 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50627 ] Thread-3 terminated abruptly
+2014-01-25 15:54:08 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 15:54:34 INFO  Main:33 - connection Established with --> /127.0.0.1:50629
+2014-01-25 15:54:34 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 15:54:34 INFO  InsertRfidData:305 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 15:54:34 INFO  ServerThread:94 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 15:54:34 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50629 ] Thread-4 terminated abruptly
+2014-01-25 15:54:34 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 15:55:01 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2f39c244: startup date [Sat Jan 25 15:55:01 IST 2014]; root of context hierarchy
+2014-01-25 15:55:01 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 15:55:01 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@47628981: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 15:55:02 INFO  Main:24 - created server --> server listening.....
+2014-01-25 15:55:05 INFO  Main:33 - connection Established with --> /127.0.0.1:50631
+2014-01-25 15:55:05 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 15:55:05 INFO  InsertRfidData:306 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 15:55:05 INFO  ServerThread:94 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 15:55:05 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50631 ] Thread-3 terminated abruptly
+2014-01-25 15:55:05 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 15:56:40 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 15:56:40 IST 2014]; root of context hierarchy
+2014-01-25 15:56:41 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 15:56:41 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51f97f92: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 15:56:41 INFO  Main:24 - created server --> server listening.....
+2014-01-25 15:56:44 INFO  Main:33 - connection Established with --> /127.0.0.1:50634
+2014-01-25 15:56:44 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 15:56:44 INFO  InsertRfidData:306 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 15:56:44 INFO  ServerThread:94 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 15:56:44 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50634 ] Thread-3 terminated abruptly
+2014-01-25 15:56:44 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 15:57:50 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2f39c244: startup date [Sat Jan 25 15:57:50 IST 2014]; root of context hierarchy
+2014-01-25 15:57:50 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 15:57:50 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@53267449: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 15:57:51 INFO  Main:24 - created server --> server listening.....
+2014-01-25 15:57:52 INFO  Main:33 - connection Established with --> /127.0.0.1:50636
+2014-01-25 15:57:52 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 15:57:52 INFO  InsertRfidData:306 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 15:57:52 INFO  InsertRfidData:322 - testing....
+2014-01-25 15:57:52 INFO  ServerThread:94 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 15:57:52 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50636 ] Thread-3 terminated abruptly
+2014-01-25 15:57:52 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 15:58:25 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2f39c244: startup date [Sat Jan 25 15:58:25 IST 2014]; root of context hierarchy
+2014-01-25 15:58:25 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 15:58:25 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1224773e: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 15:58:26 INFO  Main:24 - created server --> server listening.....
+2014-01-25 15:58:27 INFO  Main:33 - connection Established with --> /127.0.0.1:50639
+2014-01-25 15:58:27 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 15:58:27 INFO  InsertRfidData:306 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 15:58:27 INFO  InsertRfidData:322 - testing....
+2014-01-25 15:58:27 INFO  ServerThread:94 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 15:58:27 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50639 ] Thread-3 terminated abruptly
+2014-01-25 15:58:27 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 16:01:15 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 16:01:15 IST 2014]; root of context hierarchy
+2014-01-25 16:01:15 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 16:01:16 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@678f3997: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 16:01:16 INFO  Main:24 - created server --> server listening.....
+2014-01-25 16:01:18 INFO  Main:33 - connection Established with --> /127.0.0.1:50641
+2014-01-25 16:01:18 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 16:01:18 INFO  InsertRfidData:306 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 16:01:18 INFO  InsertRfidData:322 - testing....
+2014-01-25 16:01:18 INFO  ServerThread:94 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 16:01:18 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50641 ] Thread-3 terminated abruptly
+2014-01-25 16:01:18 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 16:03:05 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 16:03:05 IST 2014]; root of context hierarchy
+2014-01-25 16:03:05 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 16:03:05 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6c0e1d9e: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 16:03:06 INFO  Main:24 - created server --> server listening.....
+2014-01-25 16:03:07 INFO  Main:33 - connection Established with --> /127.0.0.1:50643
+2014-01-25 16:03:08 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 16:03:08 INFO  InsertRfidData:306 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 16:03:08 INFO  InsertRfidData:322 - testing....
+2014-01-25 16:03:08 INFO  ServerThread:94 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 16:03:08 INFO  ServerThread:102 - IO Error/ Client [/127.0.0.1:50643 ] Thread-3 terminated abruptly
+2014-01-25 16:03:08 INFO  ServerThread:124 - Connection Closing..
+2014-01-25 16:04:51 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 16:04:51 IST 2014]; root of context hierarchy
+2014-01-25 16:04:51 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 16:04:52 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1224773e: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 16:04:52 INFO  Main:24 - created server --> server listening.....
+2014-01-25 16:04:54 INFO  Main:33 - connection Established with --> /127.0.0.1:50672
+2014-01-25 16:04:54 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 16:04:54 INFO  InsertRfidData:306 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 16:04:54 INFO  InsertRfidData:322 - testing....
+2014-01-25 16:04:54 INFO  ServerThread:95 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 16:04:54 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50672 ] Thread-3 terminated abruptly
+2014-01-25 16:04:54 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:05:24 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 16:05:24 IST 2014]; root of context hierarchy
+2014-01-25 16:05:24 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 16:05:24 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@678f3997: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 16:05:24 INFO  Main:24 - created server --> server listening.....
+2014-01-25 16:05:26 INFO  Main:33 - connection Established with --> /127.0.0.1:50674
+2014-01-25 16:05:26 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 16:05:26 INFO  InsertRfidData:306 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 16:05:26 INFO  InsertRfidData:322 - testing....
+2014-01-25 16:05:26 INFO  ServerThread:94 - [Ljava.lang.StackTraceElement;@73209745
+2014-01-25 16:05:26 INFO  ServerThread:95 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 16:05:26 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50674 ] Thread-3 terminated abruptly
+2014-01-25 16:05:26 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:08:18 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 16:08:18 IST 2014]; root of context hierarchy
+2014-01-25 16:08:18 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 16:08:18 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1224773e: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 16:08:19 INFO  Main:24 - created server --> server listening.....
+2014-01-25 16:08:27 INFO  Main:33 - connection Established with --> /127.0.0.1:50679
+2014-01-25 16:08:27 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 16:08:27 INFO  InsertRfidData:304 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 16:08:27 INFO  ServerThread:95 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 16:08:27 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50679 ] Thread-3 terminated abruptly
+2014-01-25 16:08:27 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:09:26 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 16:09:26 IST 2014]; root of context hierarchy
+2014-01-25 16:09:26 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 16:09:26 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@181090c0: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 16:09:26 INFO  Main:24 - created server --> server listening.....
+2014-01-25 16:09:29 INFO  Main:33 - connection Established with --> /127.0.0.1:50681
+2014-01-25 16:09:29 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 16:09:29 INFO  InsertRfidData:304 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 16:09:29 INFO  ServerThread:95 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 16:09:29 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50681 ] Thread-3 terminated abruptly
+2014-01-25 16:09:29 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:09:57 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 16:09:57 IST 2014]; root of context hierarchy
+2014-01-25 16:09:57 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 16:09:58 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@163198c4: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 16:09:58 INFO  Main:24 - created server --> server listening.....
+2014-01-25 16:09:59 INFO  Main:33 - connection Established with --> /127.0.0.1:50683
+2014-01-25 16:09:59 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 16:09:59 INFO  InsertRfidData:304 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 16:09:59 INFO  ServerThread:95 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 16:09:59 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50683 ] Thread-3 terminated abruptly
+2014-01-25 16:09:59 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:10:24 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 16:10:24 IST 2014]; root of context hierarchy
+2014-01-25 16:10:24 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 16:10:25 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6c0e1d9e: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 16:10:25 INFO  Main:24 - created server --> server listening.....
+2014-01-25 16:10:27 INFO  Main:33 - connection Established with --> /127.0.0.1:50685
+2014-01-25 16:10:27 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 16:10:27 INFO  InsertRfidData:304 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 16:10:27 INFO  ServerThread:95 - Exception with data ... Exception type [Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info ]
+2014-01-25 16:10:27 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50685 ] Thread-3 terminated abruptly
+2014-01-25 16:10:27 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:10:44 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 16:10:44 IST 2014]; root of context hierarchy
+2014-01-25 16:10:44 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 16:10:44 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5174e73d: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 16:10:45 INFO  Main:24 - created server --> server listening.....
+2014-01-25 16:10:46 INFO  Main:33 - connection Established with --> /127.0.0.1:50687
+2014-01-25 16:10:46 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 16:10:46 INFO  InsertRfidData:304 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 16:10:46 INFO  InsertRfidData:395 - Eception at insertTimeIntoDriverorg.springframework.core.convert.ConversionFailedException: Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info
+2014-01-25 16:10:46 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50687 ] Thread-3 terminated abruptly
+2014-01-25 16:10:46 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:16:57 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 16:16:57 IST 2014]; root of context hierarchy
+2014-01-25 16:16:57 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 16:16:58 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1224773e: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 16:16:58 INFO  Main:24 - created server --> server listening.....
+2014-01-25 16:17:00 INFO  Main:33 - connection Established with --> /127.0.0.1:50696
+2014-01-25 16:17:00 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 16:17:00 INFO  InsertRfidData:304 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 16:17:00 INFO  InsertRfidData:403 - Eception at insertTimeIntoDriverorg.springframework.core.convert.ConversionFailedException: Failed to convert from type java.util.ArrayList<?> to type com.client.data.driver_info for value '[{morning={in_bound=15:37:45, out_bound=no}, evening={in_bound=no, out_bound=no}}]'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type java.util.LinkedHashMap<?, ?> to type com.client.data.driver_info
+2014-01-25 16:17:00 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50696 ] Thread-3 terminated abruptly
+2014-01-25 16:17:00 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:17:28 INFO  Main:33 - connection Established with --> /127.0.0.1:50698
+2014-01-25 16:17:28 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 16:17:28 INFO  InsertRfidData:304 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 16:17:28 INFO  InsertRfidData:403 - Eception at insertTimeIntoDriverjava.lang.NullPointerException
+2014-01-25 16:17:28 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50698 ] Thread-4 terminated abruptly
+2014-01-25 16:17:28 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:18:08 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 16:18:08 IST 2014]; root of context hierarchy
+2014-01-25 16:18:09 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 16:18:09 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5174e73d: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 16:18:09 INFO  Main:24 - created server --> server listening.....
+2014-01-25 16:18:12 INFO  Main:33 - connection Established with --> /127.0.0.1:50700
+2014-01-25 16:18:12 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 16:18:12 INFO  InsertRfidData:304 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 16:18:12 INFO  InsertRfidData:391 - Created Morning in bound for driver with RFID [ 0003477032 ]
+2014-01-25 16:18:12 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50700 ] Thread-3 terminated abruptly
+2014-01-25 16:18:12 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:18:18 INFO  Main:33 - connection Established with --> /127.0.0.1:50702
+2014-01-25 16:18:18 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 16:18:18 INFO  InsertRfidData:304 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 16:18:18 INFO  InsertRfidData:370 - Created Morning out bound for driver with RFID [ 0003477032 ]
+2014-01-25 16:18:18 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50702 ] Thread-4 terminated abruptly
+2014-01-25 16:18:18 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:18:20 INFO  Main:33 - connection Established with --> /127.0.0.1:50704
+2014-01-25 16:18:20 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 16:18:20 INFO  InsertRfidData:304 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 16:18:20 INFO  InsertRfidData:360 - Created Evening in bound for driver with RFID [ 0003477032 ]
+2014-01-25 16:18:20 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50704 ] Thread-5 terminated abruptly
+2014-01-25 16:18:20 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:18:22 INFO  Main:33 - connection Established with --> /127.0.0.1:50706
+2014-01-25 16:18:22 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 16:18:22 INFO  InsertRfidData:304 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 16:18:22 INFO  InsertRfidData:349 - Created Evening out bound for driver with RFID [ 0003477032 ]
+2014-01-25 16:18:22 INFO  InsertRfidData:350 - Today's session closed....
+2014-01-25 16:18:22 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50706 ] Thread-6 terminated abruptly
+2014-01-25 16:18:22 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:18:25 INFO  Main:33 - connection Established with --> /127.0.0.1:50708
+2014-01-25 16:18:25 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 16:18:25 INFO  InsertRfidData:304 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 16:18:25 INFO  InsertRfidData:340 - Today's session closed cannot insert any data
+2014-01-25 16:18:25 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50708 ] Thread-7 terminated abruptly
+2014-01-25 16:18:25 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:18:45 INFO  Main:33 - connection Established with --> /127.0.0.1:50710
+2014-01-25 16:18:45 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 16:18:45 INFO  InsertRfidData:304 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 16:18:45 INFO  InsertRfidData:391 - Created Morning in bound for driver with RFID [ 0003477032 ]
+2014-01-25 16:18:45 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50710 ] Thread-8 terminated abruptly
+2014-01-25 16:18:45 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:18:56 INFO  Main:33 - connection Established with --> /127.0.0.1:50712
+2014-01-25 16:18:56 INFO  ServerThread:64 - Data Received is [ R,0004716436 ]
+2014-01-25 16:18:56 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 16:18:56 INFO  InsertRfidData:286 - created morning inbound for 0004716436
+2014-01-25 16:18:56 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50712 ] Thread-9 terminated abruptly
+2014-01-25 16:18:56 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:19:21 INFO  Main:33 - connection Established with --> /127.0.0.1:50714
+2014-01-25 16:19:21 INFO  ServerThread:64 - Data Received is [ R,0004688922 ]
+2014-01-25 16:19:21 INFO  InsertRfidData:304 - RFID [ 0004688922] exists. with RFID Type [ Driver ]
+2014-01-25 16:19:21 INFO  InsertRfidData:370 - Created Morning out bound for driver with RFID [ 0004688922 ]
+2014-01-25 16:19:21 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50714 ] Thread-10 terminated abruptly
+2014-01-25 16:19:21 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:19:45 INFO  Main:33 - connection Established with --> /127.0.0.1:50716
+2014-01-25 16:19:45 INFO  ServerThread:64 - Data Received is [ R,0004688922 ]
+2014-01-25 16:19:45 INFO  InsertRfidData:304 - RFID [ 0004688922] exists. with RFID Type [ Driver ]
+2014-01-25 16:19:45 INFO  InsertRfidData:360 - Created Evening in bound for driver with RFID [ 0004688922 ]
+2014-01-25 16:19:45 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50716 ] Thread-11 terminated abruptly
+2014-01-25 16:19:45 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:20:04 INFO  Main:33 - connection Established with --> /127.0.0.1:50718
+2014-01-25 16:20:04 INFO  ServerThread:64 - Data Received is [ R,0004716436 ]
+2014-01-25 16:20:04 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 16:20:04 INFO  InsertRfidData:166 - created evening inbound for 0004716436
+2014-01-25 16:20:04 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50718 ] Thread-12 terminated abruptly
+2014-01-25 16:20:04 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:20:13 INFO  Main:33 - connection Established with --> /127.0.0.1:50720
+2014-01-25 16:20:13 INFO  ServerThread:64 - Data Received is [ R,0004716436 ]
+2014-01-25 16:20:13 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 16:20:13 INFO  InsertRfidData:145 - created evening outbound for 0004716436
+2014-01-25 16:20:13 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50720 ] Thread-13 terminated abruptly
+2014-01-25 16:20:13 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:23:50 INFO  Main:33 - connection Established with --> /127.0.0.1:50722
+2014-01-25 16:23:50 INFO  ServerThread:64 - Data Received is [ R,0004688922 ]
+2014-01-25 16:23:50 INFO  InsertRfidData:304 - RFID [ 0004688922] exists. with RFID Type [ Driver ]
+2014-01-25 16:23:50 INFO  InsertRfidData:391 - Created Morning in bound for driver with RFID [ 0004688922 ]
+2014-01-25 16:23:50 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50722 ] Thread-14 terminated abruptly
+2014-01-25 16:23:50 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:24:11 INFO  Main:33 - connection Established with --> /127.0.0.1:50723
+2014-01-25 16:24:11 INFO  ServerThread:64 - Data Received is [ R,0004716436 ]
+2014-01-25 16:24:11 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 16:24:11 INFO  InsertRfidData:286 - created morning inbound for 0004716436
+2014-01-25 16:24:11 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50723 ] Thread-15 terminated abruptly
+2014-01-25 16:24:11 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:24:17 INFO  Main:33 - connection Established with --> /127.0.0.1:50724
+2014-01-25 16:24:17 INFO  ServerThread:64 - Data Received is [ R,0004716436 ]
+2014-01-25 16:24:17 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 16:24:18 INFO  InsertRfidData:249 - created morning outbound for 0004716436
+2014-01-25 16:24:18 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50724 ] Thread-16 terminated abruptly
+2014-01-25 16:24:18 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:24:23 INFO  Main:33 - connection Established with --> /127.0.0.1:50725
+2014-01-25 16:24:23 INFO  ServerThread:64 - Data Received is [ R,0004716436 ]
+2014-01-25 16:24:23 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 16:24:23 INFO  InsertRfidData:229 - Student Morning session cannot be inserted beacuse [ multiple RFID tapping ]
+2014-01-25 16:24:23 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50725 ] Thread-17 terminated abruptly
+2014-01-25 16:24:23 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:26:04 INFO  Main:33 - connection Established with --> /127.0.0.1:50726
+2014-01-25 16:26:04 INFO  ServerThread:64 - Data Received is [ R,0004716196 ]
+2014-01-25 16:26:04 INFO  InsertRfidData:58 - RFID [ 0004716196] exists. with RFID Type [ Student ]
+2014-01-25 16:26:04 INFO  InsertRfidData:270 - created morning outbound for 0004716196
+2014-01-25 16:26:04 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50726 ] Thread-18 terminated abruptly
+2014-01-25 16:26:04 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:28:10 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 16:28:10 IST 2014]; root of context hierarchy
+2014-01-25 16:28:10 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 16:28:10 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@163198c4: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 16:28:11 INFO  Main:24 - created server --> server listening.....
+2014-01-25 16:28:16 INFO  Main:33 - connection Established with --> /127.0.0.1:50729
+2014-01-25 16:28:16 INFO  ServerThread:64 - Data Received is [ R,0004716196 ]
+2014-01-25 16:28:16 INFO  InsertRfidData:58 - RFID [ 0004716196] exists. with RFID Type [ Student ]
+2014-01-25 16:28:17 INFO  InsertRfidData:266 - created morning inbound for 0004716196
+2014-01-25 16:28:17 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:50729 ] Thread-3 terminated abruptly
+2014-01-25 16:28:17 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:44:59 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 16:44:59 IST 2014]; root of context hierarchy
+2014-01-25 16:44:59 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 16:44:59 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5174e73d: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 16:45:00 INFO  Main:27 - Cannot create server with port [ 10000 ] , PORT already in use!
+2014-01-25 16:45:12 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 16:45:12 IST 2014]; root of context hierarchy
+2014-01-25 16:45:12 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 16:45:12 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@678f3997: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 16:45:12 INFO  Main:24 - created server --> server listening.....
+2014-01-25 16:45:24 INFO  Main:33 - connection Established with --> /84.64.63.184:26981
+2014-01-25 16:45:28 INFO  ServerThread:84 - Data Received is [ G,,,,,000941.303,V,N*76 ]
+2014-01-25 16:45:28 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,000941.303,V,N*76 ]
+2014-01-25 16:45:28 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:45:28 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:45:40 INFO  Main:33 - connection Established with --> /127.0.0.1:51035
+2014-01-25 16:45:40 INFO  ServerThread:64 - Data Received is [ R,0003460030 ]
+2014-01-25 16:45:40 INFO  InsertRfidData:58 - RFID [ 0003460030] exists. with RFID Type [ Student ]
+2014-01-25 16:45:40 INFO  InsertRfidData:249 - created morning outbound for 0003460030
+2014-01-25 16:45:40 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:51035 ] Thread-4 terminated abruptly
+2014-01-25 16:45:40 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:45:49 INFO  ServerThread:84 - Data Received is [ G,,,,,001001.303,V,N*7A ]
+2014-01-25 16:45:49 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,001001.303,V,N*7A ]
+2014-01-25 16:45:49 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:45:49 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:48:48 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 16:48:48 IST 2014]; root of context hierarchy
+2014-01-25 16:48:48 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 16:48:49 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@181090c0: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 16:48:49 INFO  Main:24 - created server --> server listening.....
+2014-01-25 16:48:52 INFO  Main:33 - connection Established with --> /84.64.63.184:28787
+2014-01-25 16:48:57 INFO  ServerThread:84 - Data Received is [ G,,,,,001309.303,V,N*71 ]
+2014-01-25 16:48:57 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,001309.303,V,N*71 ]
+2014-01-25 16:48:57 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:48:57 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:49:18 INFO  ServerThread:84 - Data Received is [ G,,,,,001330.303,V,N*7B ]
+2014-01-25 16:49:18 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,001330.303,V,N*7B ]
+2014-01-25 16:49:18 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:49:18 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:49:39 INFO  ServerThread:84 - Data Received is [ G,,,,,001351.303,V,N*7C ]
+2014-01-25 16:49:39 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,001351.303,V,N*7C ]
+2014-01-25 16:49:39 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:49:39 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 16:49:39 INFO  InsertRfidData:304 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 16:49:39 INFO  InsertRfidData:391 - Created Morning in bound for driver with RFID [ 0003477032 ]
+2014-01-25 16:49:59 INFO  ServerThread:84 - Data Received is [ G,,,,,001411.303,V,N*7F ]
+2014-01-25 16:49:59 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,001411.303,V,N*7F ]
+2014-01-25 16:49:59 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:49:59 INFO  ServerThread:64 - Data Received is [ R,0003460030 ]
+2014-01-25 16:49:59 INFO  InsertRfidData:58 - RFID [ 0003460030] exists. with RFID Type [ Student ]
+2014-01-25 16:49:59 INFO  InsertRfidData:286 - created morning inbound for 0003460030
+2014-01-25 16:50:19 INFO  ServerThread:84 - Data Received is [ G,,,,,001431.303,V,N*7D ]
+2014-01-25 16:50:19 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,001431.303,V,N*7D ]
+2014-01-25 16:50:19 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:50:19 INFO  ServerThread:64 - Data Received is [ R,0003460030 ]
+2014-01-25 16:50:19 INFO  InsertRfidData:58 - RFID [ 0003460030] exists. with RFID Type [ Student ]
+2014-01-25 16:50:19 INFO  InsertRfidData:249 - created morning outbound for 0003460030
+2014-01-25 16:50:40 INFO  ServerThread:84 - Data Received is [ G,,,,,001452.303,V,N*78 ]
+2014-01-25 16:50:40 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,001452.303,V,N*78 ]
+2014-01-25 16:50:40 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:50:40 INFO  ServerThread:64 - Data Received is [ R,0003460030 ]
+2014-01-25 16:50:40 INFO  InsertRfidData:58 - RFID [ 0003460030] exists. with RFID Type [ Student ]
+2014-01-25 16:50:40 INFO  InsertRfidData:229 - Student Morning session cannot be inserted beacuse [ multiple RFID tapping ]
+2014-01-25 16:51:00 INFO  ServerThread:84 - Data Received is [ G,,,,,001512.303,V,N*7D ]
+2014-01-25 16:51:00 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,001512.303,V,N*7D ]
+2014-01-25 16:51:00 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:51:00 INFO  ServerThread:64 - Data Received is [ R,0003467527 ]
+2014-01-25 16:51:00 INFO  InsertRfidData:58 - RFID [ 0003467527] exists. with RFID Type [ Student ]
+2014-01-25 16:51:00 INFO  InsertRfidData:270 - created morning outbound for 0003467527
+2014-01-25 16:51:20 INFO  ServerThread:84 - Data Received is [ G,,,,,112118.091,V,N*78 ]
+2014-01-25 16:51:20 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112118.091,V,N*78 ]
+2014-01-25 16:51:20 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:51:20 INFO  ServerThread:64 - Data Received is [ R,0003456041 ]
+2014-01-25 16:51:20 INFO  InsertRfidData:58 - RFID [ 0003456041] exists. with RFID Type [ Student ]
+2014-01-25 16:51:20 INFO  InsertRfidData:270 - created morning outbound for 0003456041
+2014-01-25 16:51:42 INFO  ServerThread:84 - Data Received is [ G,,,,,112139.091,V,N*7B ]
+2014-01-25 16:51:42 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112139.091,V,N*7B ]
+2014-01-25 16:51:42 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:51:42 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:52:02 INFO  ServerThread:84 - Data Received is [ G,,,,,112201.091,V,N*73 ]
+2014-01-25 16:52:02 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112201.091,V,N*73 ]
+2014-01-25 16:52:02 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:52:02 INFO  ServerThread:64 - Data Received is [ R,0003456041 ]
+2014-01-25 16:52:02 INFO  InsertRfidData:58 - RFID [ 0003456041] exists. with RFID Type [ Student ]
+2014-01-25 16:52:02 INFO  InsertRfidData:270 - created morning outbound for 0003456041
+2014-01-25 16:52:23 INFO  ServerThread:84 - Data Received is [ G,,,,,112221.091,V,N*71 ]
+2014-01-25 16:52:23 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112221.091,V,N*71 ]
+2014-01-25 16:52:23 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:52:23 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:52:44 INFO  ServerThread:84 - Data Received is [ G,,,,,112241.091,V,N*77 ]
+2014-01-25 16:52:44 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112241.091,V,N*77 ]
+2014-01-25 16:52:44 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:52:44 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:53:08 INFO  ServerThread:84 - Data Received is [ G,,,,,112307.091,V,N*74 ]
+2014-01-25 16:53:08 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112307.091,V,N*74 ]
+2014-01-25 16:53:08 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:53:08 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:53:29 INFO  ServerThread:84 - Data Received is [ G,,,,,112327.091,V,N*76 ]
+2014-01-25 16:53:29 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112327.091,V,N*76 ]
+2014-01-25 16:53:29 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:53:29 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:53:49 INFO  ServerThread:84 - Data Received is [ G,,,,,112347.091,V,N*70 ]
+2014-01-25 16:53:49 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112347.091,V,N*70 ]
+2014-01-25 16:53:49 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:53:49 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:54:09 INFO  ServerThread:84 - Data Received is [ G,,,,,112407.087,V,N*74 ]
+2014-01-25 16:54:09 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112407.087,V,N*74 ]
+2014-01-25 16:54:09 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:54:09 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:54:30 INFO  ServerThread:84 - Data Received is [ G,,,,,112428.086,V,N*78 ]
+2014-01-25 16:54:30 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112428.086,V,N*78 ]
+2014-01-25 16:54:30 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:54:30 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:54:50 INFO  ServerThread:84 - Data Received is [ G,,,,,112448.086,V,N*7E ]
+2014-01-25 16:54:50 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112448.086,V,N*7E ]
+2014-01-25 16:54:50 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:54:50 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:55:12 INFO  ServerThread:84 - Data Received is [ G,,,,,112510.086,V,N*72 ]
+2014-01-25 16:55:12 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112510.086,V,N*72 ]
+2014-01-25 16:55:12 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:55:12 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:55:31 INFO  ServerThread:84 - Data Received is [ G,,,,,112529.086,V,N*78 ]
+2014-01-25 16:55:31 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112529.086,V,N*78 ]
+2014-01-25 16:55:31 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:55:31 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:55:42 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2f39c244: startup date [Sat Jan 25 16:55:42 IST 2014]; root of context hierarchy
+2014-01-25 16:55:42 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 16:55:42 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@181090c0: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 16:55:43 INFO  Main:24 - created server --> server listening.....
+2014-01-25 16:56:01 INFO  Main:33 - connection Established with --> /84.64.63.184:23689
+2014-01-25 16:56:07 INFO  ServerThread:84 - Data Received is [ G,,,,,112605.086,V,N*75 ]
+2014-01-25 16:56:07 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112605.086,V,N*75 ]
+2014-01-25 16:56:07 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:56:07 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:56:16 INFO  Main:33 - connection Established with --> /127.0.0.1:51253
+2014-01-25 16:56:16 INFO  ServerThread:64 - Data Received is [ R,0003456041 ]
+2014-01-25 16:56:16 INFO  InsertRfidData:58 - RFID [ 0003456041] exists. with RFID Type [ Student ]
+2014-01-25 16:56:16 INFO  InsertRfidData:208 - Student rfid info ==> [Lcom.student.data.rfid_info;@163f95ba
+2014-01-25 16:56:16 INFO  InsertRfidData:270 - created morning outbound for 0003456041
+2014-01-25 16:56:16 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:51253 ] Thread-4 terminated abruptly
+2014-01-25 16:56:16 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:56:28 INFO  ServerThread:84 - Data Received is [ G,,,,,112626.086,V,N*74 ]
+2014-01-25 16:56:28 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112626.086,V,N*74 ]
+2014-01-25 16:56:28 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:56:28 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:56:49 INFO  ServerThread:84 - Data Received is [ G,,,,,112647.086,V,N*73 ]
+2014-01-25 16:56:49 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112647.086,V,N*73 ]
+2014-01-25 16:56:49 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:56:49 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:57:14 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2f39c244: startup date [Sat Jan 25 16:57:14 IST 2014]; root of context hierarchy
+2014-01-25 16:57:14 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 16:57:15 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51f97f92: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 16:57:15 INFO  Main:24 - created server --> server listening.....
+2014-01-25 16:57:19 INFO  Main:33 - connection Established with --> /127.0.0.1:51277
+2014-01-25 16:57:19 INFO  ServerThread:64 - Data Received is [ R,0003456041 ]
+2014-01-25 16:57:19 INFO  InsertRfidData:58 - RFID [ 0003456041] exists. with RFID Type [ Student ]
+2014-01-25 16:57:19 INFO  InsertRfidData:208 - Student rfid info ==> [Lcom.student.data.rfid_info;@5cc66a3b
+2014-01-25 16:57:19 INFO  InsertRfidData:265 - created morning inbound for 0003456041
+2014-01-25 16:57:19 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:51277 ] Thread-3 terminated abruptly
+2014-01-25 16:57:19 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:57:24 INFO  Main:33 - connection Established with --> /84.64.63.184:21657
+2014-01-25 16:57:30 INFO  ServerThread:84 - Data Received is [ G,,,,,112728.086,V,N*7B ]
+2014-01-25 16:57:30 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112728.086,V,N*7B ]
+2014-01-25 16:57:30 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:57:30 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:57:51 INFO  ServerThread:84 - Data Received is [ G,,,,,112749.086,V,N*7C ]
+2014-01-25 16:57:51 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112749.086,V,N*7C ]
+2014-01-25 16:57:51 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:57:51 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:57:53 INFO  Main:33 - connection Established with --> /127.0.0.1:51290
+2014-01-25 16:57:53 INFO  ServerThread:64 - Data Received is [ R,0004703357 ]
+2014-01-25 16:57:53 INFO  InsertRfidData:58 - RFID [ 0004703357] exists. with RFID Type [ Student ]
+2014-01-25 16:57:53 INFO  InsertRfidData:208 - Student rfid info ==> [Lcom.student.data.rfid_info;@199c36ee
+2014-01-25 16:57:53 INFO  InsertRfidData:265 - created morning inbound for 0004703357
+2014-01-25 16:57:53 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:51290 ] Thread-5 terminated abruptly
+2014-01-25 16:57:53 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:58:01 INFO  Main:33 - connection Established with --> /127.0.0.1:51294
+2014-01-25 16:58:01 INFO  ServerThread:64 - Data Received is [ R,0004703357 ]
+2014-01-25 16:58:01 INFO  InsertRfidData:58 - RFID [ 0004703357] exists. with RFID Type [ Student ]
+2014-01-25 16:58:01 INFO  InsertRfidData:208 - Student rfid info ==> [Lcom.student.data.rfid_info;@54392d44
+2014-01-25 16:58:01 INFO  InsertRfidData:249 - created morning outbound for 0004703357
+2014-01-25 16:58:01 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:51294 ] Thread-6 terminated abruptly
+2014-01-25 16:58:01 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:58:06 INFO  Main:33 - connection Established with --> /127.0.0.1:51298
+2014-01-25 16:58:06 INFO  ServerThread:64 - Data Received is [ R,0004703357 ]
+2014-01-25 16:58:06 INFO  InsertRfidData:58 - RFID [ 0004703357] exists. with RFID Type [ Student ]
+2014-01-25 16:58:06 INFO  InsertRfidData:208 - Student rfid info ==> [Lcom.student.data.rfid_info;@320470d2
+2014-01-25 16:58:06 INFO  InsertRfidData:229 - Student Morning session cannot be inserted beacuse [ multiple RFID tapping ]
+2014-01-25 16:58:06 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:51298 ] Thread-7 terminated abruptly
+2014-01-25 16:58:06 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:58:11 INFO  ServerThread:84 - Data Received is [ G,,,,,112809.086,V,N*77 ]
+2014-01-25 16:58:11 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112809.086,V,N*77 ]
+2014-01-25 16:58:11 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:58:11 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:58:26 INFO  Main:33 - connection Established with --> /127.0.0.1:51307
+2014-01-25 16:58:26 INFO  ServerThread:64 - Data Received is [ R,0004658950 ]
+2014-01-25 16:58:26 INFO  InsertRfidData:299 - RFID [ 0004658950] exists. with RFID Type [ Driver ]
+2014-01-25 16:58:26 INFO  InsertRfidData:365 - Created Morning out bound for driver with RFID [ 0004658950 ]
+2014-01-25 16:58:26 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:51307 ] Thread-8 terminated abruptly
+2014-01-25 16:58:26 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 16:58:31 INFO  ServerThread:84 - Data Received is [ G,,,,,112829.086,V,N*75 ]
+2014-01-25 16:58:31 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112829.086,V,N*75 ]
+2014-01-25 16:58:31 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:58:31 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:58:50 INFO  ServerThread:84 - Data Received is [ G,,,,,112848.086,V,N*72 ]
+2014-01-25 16:58:50 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112848.086,V,N*72 ]
+2014-01-25 16:58:50 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:58:50 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:59:09 INFO  ServerThread:84 - Data Received is [ G,,,,,112908.086,V,N*77 ]
+2014-01-25 16:59:09 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112908.086,V,N*77 ]
+2014-01-25 16:59:09 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:59:09 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 16:59:30 INFO  ServerThread:84 - Data Received is [ G,,,,,112928.086,V,N*75 ]
+2014-01-25 16:59:30 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,112928.086,V,N*75 ]
+2014-01-25 16:59:30 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 16:59:30 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:27:12 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2f39c244: startup date [Sat Jan 25 17:27:12 IST 2014]; root of context hierarchy
+2014-01-25 17:27:12 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 17:27:13 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5174e73d: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 17:27:13 INFO  Main:24 - created server --> server listening.....
+2014-01-25 17:27:21 INFO  Main:33 - connection Established with --> /84.64.63.184:3995
+2014-01-25 17:27:27 INFO  ServerThread:84 - Data Received is [ G,,,,,115725.086,V,N*71 ]
+2014-01-25 17:27:27 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,115725.086,V,N*71 ]
+2014-01-25 17:27:27 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:27:27 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:27:42 INFO  Main:33 - connection Established with --> /127.0.0.1:52750
+2014-01-25 17:27:42 INFO  ServerThread:64 - Data Received is [ R,0004740621 ]
+2014-01-25 17:27:43 INFO  InsertRfidData:58 - RFID [ 0004740621] exists. with RFID Type [ Student ]
+2014-01-25 17:27:43 INFO  InsertRfidData:202 - created evening inbound for 0004740621
+2014-01-25 17:27:43 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:52750 ] Thread-4 terminated abruptly
+2014-01-25 17:27:43 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 17:27:47 INFO  ServerThread:84 - Data Received is [ G,,,,,115745.086,V,N*77 ]
+2014-01-25 17:27:47 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,115745.086,V,N*77 ]
+2014-01-25 17:27:47 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:27:47 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:28:06 INFO  ServerThread:84 - Data Received is [ G,,,,,115804.086,V,N*7D ]
+2014-01-25 17:28:06 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,115804.086,V,N*7D ]
+2014-01-25 17:28:06 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:28:06 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:28:26 INFO  ServerThread:84 - Data Received is [ G,,,,,115824.086,V,N*7F ]
+2014-01-25 17:28:26 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,115824.086,V,N*7F ]
+2014-01-25 17:28:26 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:28:26 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:28:46 INFO  ServerThread:84 - Data Received is [ G,,,,,115845.086,V,N*78 ]
+2014-01-25 17:28:46 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,115845.086,V,N*78 ]
+2014-01-25 17:28:46 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:28:46 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:29:07 INFO  ServerThread:84 - Data Received is [ G,,,,,115905.086,V,N*7D ]
+2014-01-25 17:29:07 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,115905.086,V,N*7D ]
+2014-01-25 17:29:07 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:29:07 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:29:27 INFO  ServerThread:84 - Data Received is [ G,,,,,115925.086,V,N*7F ]
+2014-01-25 17:29:27 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,115925.086,V,N*7F ]
+2014-01-25 17:29:27 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:29:27 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:29:47 INFO  ServerThread:84 - Data Received is [ G,,,,,115945.086,V,N*79 ]
+2014-01-25 17:29:47 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,115945.086,V,N*79 ]
+2014-01-25 17:29:47 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:29:47 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:29:56 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2f39c244: startup date [Sat Jan 25 17:29:56 IST 2014]; root of context hierarchy
+2014-01-25 17:29:57 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 17:29:57 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6c0e1d9e: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 17:29:57 INFO  Main:24 - created server --> server listening.....
+2014-01-25 17:30:28 INFO  Main:33 - connection Established with --> /127.0.0.1:52917
+2014-01-25 17:30:28 INFO  ServerThread:64 - Data Received is [ R,0004740621 ]
+2014-01-25 17:30:28 INFO  InsertRfidData:58 - RFID [ 0004740621] exists. with RFID Type [ Student ]
+2014-01-25 17:30:28 INFO  InsertRfidData:305 - Today there is no Session..
+2014-01-25 17:30:28 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:52917 ] Thread-3 terminated abruptly
+2014-01-25 17:30:28 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 17:32:16 INFO  Main:33 - connection Established with --> /84.64.63.184:35081
+2014-01-25 17:32:23 INFO  ServerThread:84 - Data Received is [ G,,,,,120221.086,V,N*76 ]
+2014-01-25 17:32:23 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120221.086,V,N*76 ]
+2014-01-25 17:32:23 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:32:23 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:32:43 INFO  ServerThread:84 - Data Received is [ G,,,,,120241.086,V,N*70 ]
+2014-01-25 17:32:43 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120241.086,V,N*70 ]
+2014-01-25 17:32:43 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:32:43 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:33:03 INFO  ServerThread:84 - Data Received is [ G,,,,,120301.086,V,N*75 ]
+2014-01-25 17:33:03 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120301.086,V,N*75 ]
+2014-01-25 17:33:03 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:33:03 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:33:23 INFO  ServerThread:84 - Data Received is [ G,,,,,120321.086,V,N*77 ]
+2014-01-25 17:33:23 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120321.086,V,N*77 ]
+2014-01-25 17:33:23 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:33:23 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:33:43 INFO  ServerThread:84 - Data Received is [ G,,,,,120342.086,V,N*72 ]
+2014-01-25 17:33:43 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120342.086,V,N*72 ]
+2014-01-25 17:33:43 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:33:43 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:33:49 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 17:33:49 IST 2014]; root of context hierarchy
+2014-01-25 17:33:49 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 17:33:49 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@12baa77e: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 17:33:49 INFO  Main:24 - created server --> server listening.....
+2014-01-25 17:34:03 INFO  Main:33 - connection Established with --> /84.64.63.184:38956
+2014-01-25 17:34:09 INFO  ServerThread:84 - Data Received is [ G,,,,,120407.086,V,N*74 ]
+2014-01-25 17:34:09 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120407.086,V,N*74 ]
+2014-01-25 17:34:09 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:34:09 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:34:29 INFO  ServerThread:84 - Data Received is [ G,,,,,120427.086,V,N*76 ]
+2014-01-25 17:34:29 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120427.086,V,N*76 ]
+2014-01-25 17:34:29 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:34:29 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:34:50 INFO  ServerThread:84 - Data Received is [ G,,,,,120448.086,V,N*7F ]
+2014-01-25 17:34:50 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120448.086,V,N*7F ]
+2014-01-25 17:34:50 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:34:50 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:35:13 INFO  ServerThread:84 - Data Received is [ G,,,,,120511.086,V,N*72 ]
+2014-01-25 17:35:13 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120511.086,V,N*72 ]
+2014-01-25 17:35:13 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:35:13 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:35:27 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79011694: startup date [Sat Jan 25 17:35:27 IST 2014]; root of context hierarchy
+2014-01-25 17:35:27 INFO  XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [spring-config.xml]
+2014-01-25 17:35:27 INFO  DefaultListableBeanFactory:577 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@181090c0: defining beans [mongo,org.springframework.beans.factory.config.CustomEditorConfigurer#0,org.springframework.beans.factory.config.CustomEditorConfigurer#1,org.springframework.beans.factory.config.CustomEditorConfigurer#2,mongoDbFactory,mongoTemplate,data,insertRfid,rfid,driverRfid,morningSession,rfid_info,driver_info,studentMorningSession,morning,evening,processGPS,map,id,oneday]; root of factory hierarchy
+2014-01-25 17:35:27 INFO  Main:24 - created server --> server listening.....
+2014-01-25 17:35:41 INFO  Main:33 - connection Established with --> /84.64.63.184:31479
+2014-01-25 17:35:45 INFO  ServerThread:84 - Data Received is [ G,,,,,120543.086,V,N*75 ]
+2014-01-25 17:35:45 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120543.086,V,N*75 ]
+2014-01-25 17:35:45 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:35:45 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:36:05 INFO  ServerThread:84 - Data Received is [ G,,,,,120603.086,V,N*72 ]
+2014-01-25 17:36:05 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120603.086,V,N*72 ]
+2014-01-25 17:36:05 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:36:05 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:36:25 INFO  ServerThread:84 - Data Received is [ G,,,,,120623.086,V,N*70 ]
+2014-01-25 17:36:25 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120623.086,V,N*70 ]
+2014-01-25 17:36:25 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:36:25 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 17:36:25 INFO  InsertRfidData:326 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 17:36:25 INFO  InsertRfidData:413 - Created Morning in bound for driver with RFID [ 0003477032 ]
+2014-01-25 17:36:45 INFO  ServerThread:84 - Data Received is [ G,,,,,120643.086,V,N*76 ]
+2014-01-25 17:36:45 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120643.086,V,N*76 ]
+2014-01-25 17:36:45 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:36:45 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:37:06 INFO  ServerThread:84 - Data Received is [ G,,,,,120704.086,V,N*74 ]
+2014-01-25 17:37:06 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120704.086,V,N*74 ]
+2014-01-25 17:37:06 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:37:06 INFO  ServerThread:64 - Data Received is [ R,0003456041 ]
+2014-01-25 17:37:06 INFO  InsertRfidData:58 - RFID [ 0003456041] exists. with RFID Type [ Student ]
+2014-01-25 17:37:06 INFO  InsertRfidData:308 - created morning inbound for 0003456041
+2014-01-25 17:37:26 INFO  ServerThread:84 - Data Received is [ G,,,,,120724.086,V,N*76 ]
+2014-01-25 17:37:26 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120724.086,V,N*76 ]
+2014-01-25 17:37:26 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:37:26 INFO  ServerThread:64 - Data Received is [ R,0003467527 ]
+2014-01-25 17:37:26 INFO  InsertRfidData:58 - RFID [ 0003467527] exists. with RFID Type [ Student ]
+2014-01-25 17:37:26 INFO  InsertRfidData:292 - created morning inbound for 0003467527
+2014-01-25 17:37:46 INFO  ServerThread:84 - Data Received is [ G,,,,,120744.086,V,N*70 ]
+2014-01-25 17:37:46 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120744.086,V,N*70 ]
+2014-01-25 17:37:46 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:37:46 INFO  ServerThread:64 - Data Received is [ R,0003460030 ]
+2014-01-25 17:37:46 INFO  InsertRfidData:58 - RFID [ 0003460030] exists. with RFID Type [ Student ]
+2014-01-25 17:37:46 INFO  InsertRfidData:292 - created morning inbound for 0003460030
+2014-01-25 17:38:06 INFO  ServerThread:84 - Data Received is [ G,,,,,120804.086,V,N*7B ]
+2014-01-25 17:38:06 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120804.086,V,N*7B ]
+2014-01-25 17:38:06 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:38:06 INFO  ServerThread:64 - Data Received is [ R,0003460030 ]
+2014-01-25 17:38:06 INFO  InsertRfidData:58 - RFID [ 0003460030] exists. with RFID Type [ Student ]
+2014-01-25 17:38:06 INFO  InsertRfidData:276 - created morning outbound for 0003460030
+2014-01-25 17:38:26 INFO  ServerThread:84 - Data Received is [ G,,,,,120825.086,V,N*78 ]
+2014-01-25 17:38:26 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120825.086,V,N*78 ]
+2014-01-25 17:38:26 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:38:26 INFO  ServerThread:64 - Data Received is [ R,0003456041 ]
+2014-01-25 17:38:26 INFO  InsertRfidData:58 - RFID [ 0003456041] exists. with RFID Type [ Student ]
+2014-01-25 17:38:26 INFO  InsertRfidData:276 - created morning outbound for 0003456041
+2014-01-25 17:38:47 INFO  ServerThread:84 - Data Received is [ G,,,,,120845.086,V,N*7E ]
+2014-01-25 17:38:47 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120845.086,V,N*7E ]
+2014-01-25 17:38:47 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:38:47 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:39:07 INFO  ServerThread:84 - Data Received is [ G,,,,,120905.086,V,N*7B ]
+2014-01-25 17:39:07 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120905.086,V,N*7B ]
+2014-01-25 17:39:07 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:39:07 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:39:27 INFO  ServerThread:84 - Data Received is [ G,,,,,120925.086,V,N*79 ]
+2014-01-25 17:39:27 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120925.086,V,N*79 ]
+2014-01-25 17:39:27 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:39:27 INFO  ServerThread:64 - Data Received is [ R,0003467527 ]
+2014-01-25 17:39:27 INFO  InsertRfidData:58 - RFID [ 0003467527] exists. with RFID Type [ Student ]
+2014-01-25 17:39:27 INFO  InsertRfidData:276 - created morning outbound for 0003467527
+2014-01-25 17:39:48 INFO  ServerThread:84 - Data Received is [ G,,,,,120946.086,V,N*7C ]
+2014-01-25 17:39:48 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,120946.086,V,N*7C ]
+2014-01-25 17:39:48 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:39:48 INFO  ServerThread:64 - Data Received is [ R,0003467527 ]
+2014-01-25 17:39:48 INFO  InsertRfidData:58 - RFID [ 0003467527] exists. with RFID Type [ Student ]
+2014-01-25 17:39:48 INFO  InsertRfidData:256 - Student Morning session cannot be inserted beacuse [ multiple RFID tapping ]
+2014-01-25 17:40:08 INFO  ServerThread:84 - Data Received is [ G,,,,,121006.086,V,N*70 ]
+2014-01-25 17:40:08 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,121006.086,V,N*70 ]
+2014-01-25 17:40:08 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:40:08 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:40:27 INFO  ServerThread:84 - Data Received is [ G,,,,,121025.086,V,N*71 ]
+2014-01-25 17:40:27 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,121025.086,V,N*71 ]
+2014-01-25 17:40:27 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:40:27 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 17:40:27 INFO  InsertRfidData:326 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 17:40:27 INFO  InsertRfidData:392 - Created Morning out bound for driver with RFID [ 0003477032 ]
+2014-01-25 17:40:47 INFO  ServerThread:84 - Data Received is [ G,,,,,121045.086,V,N*77 ]
+2014-01-25 17:40:47 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,121045.086,V,N*77 ]
+2014-01-25 17:40:47 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:40:47 INFO  ServerThread:64 - Data Received is [ R,0003456041 ]
+2014-01-25 17:40:47 INFO  InsertRfidData:58 - RFID [ 0003456041] exists. with RFID Type [ Student ]
+2014-01-25 17:40:47 INFO  InsertRfidData:184 - Evening session error [ Evening session is not started yet ] 
+2014-01-25 17:41:10 INFO  ServerThread:84 - Data Received is [ G,,,,,121108.086,V,N*7F ]
+2014-01-25 17:41:10 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,121108.086,V,N*7F ]
+2014-01-25 17:41:10 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:41:10 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 17:41:10 INFO  InsertRfidData:326 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 17:41:10 INFO  InsertRfidData:382 - Created Evening in bound for driver with RFID [ 0003477032 ]
+2014-01-25 17:41:30 INFO  ServerThread:84 - Data Received is [ G,,,,,121128.086,V,N*7D ]
+2014-01-25 17:41:30 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,121128.086,V,N*7D ]
+2014-01-25 17:41:30 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:41:30 INFO  ServerThread:64 - Data Received is [ R,0003456041 ]
+2014-01-25 17:41:30 INFO  InsertRfidData:58 - RFID [ 0003456041] exists. with RFID Type [ Student ]
+2014-01-25 17:41:30 INFO  InsertRfidData:180 - created evening inbound for 0003456041
+2014-01-25 17:41:54 INFO  ServerThread:84 - Data Received is [ G,,,,,121152.086,V,N*70 ]
+2014-01-25 17:41:54 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,121152.086,V,N*70 ]
+2014-01-25 17:41:54 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:41:54 INFO  ServerThread:64 - Data Received is [ R,0003467527 ]
+2014-01-25 17:41:54 INFO  InsertRfidData:58 - RFID [ 0003467527] exists. with RFID Type [ Student ]
+2014-01-25 17:41:54 INFO  InsertRfidData:180 - created evening inbound for 0003467527
+2014-01-25 17:42:14 INFO  ServerThread:84 - Data Received is [ G,,,,,121213.086,V,N*76 ]
+2014-01-25 17:42:14 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,121213.086,V,N*76 ]
+2014-01-25 17:42:14 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:42:14 INFO  ServerThread:64 - Data Received is [ R,0003460030 ]
+2014-01-25 17:42:14 INFO  InsertRfidData:58 - RFID [ 0003460030] exists. with RFID Type [ Student ]
+2014-01-25 17:42:14 INFO  InsertRfidData:180 - created evening inbound for 0003460030
+2014-01-25 17:42:34 INFO  ServerThread:84 - Data Received is [ G,,,,,121232.086,V,N*75 ]
+2014-01-25 17:42:34 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,121232.086,V,N*75 ]
+2014-01-25 17:42:34 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:42:34 INFO  ServerThread:64 - Data Received is [ R,0003467527 ]
+2014-01-25 17:42:34 INFO  InsertRfidData:58 - RFID [ 0003467527] exists. with RFID Type [ Student ]
+2014-01-25 17:42:34 INFO  InsertRfidData:146 - created evening outbound for 0003467527
+2014-01-25 17:42:54 INFO  ServerThread:84 - Data Received is [ G,,,,,121252.086,V,N*73 ]
+2014-01-25 17:42:54 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,121252.086,V,N*73 ]
+2014-01-25 17:42:54 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:42:54 INFO  ServerThread:64 - Data Received is [ R,0003460030 ]
+2014-01-25 17:42:54 INFO  InsertRfidData:58 - RFID [ 0003460030] exists. with RFID Type [ Student ]
+2014-01-25 17:42:54 INFO  InsertRfidData:146 - created evening outbound for 0003460030
+2014-01-25 17:43:14 INFO  ServerThread:84 - Data Received is [ G,,,,,121312.086,V,N*76 ]
+2014-01-25 17:43:14 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,121312.086,V,N*76 ]
+2014-01-25 17:43:14 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:43:14 INFO  ServerThread:64 - Data Received is [ R,0003456041 ]
+2014-01-25 17:43:14 INFO  InsertRfidData:58 - RFID [ 0003456041] exists. with RFID Type [ Student ]
+2014-01-25 17:43:14 INFO  InsertRfidData:146 - created evening outbound for 0003456041
+2014-01-25 17:43:35 INFO  ServerThread:84 - Data Received is [ G,,,,,121333.086,V,N*75 ]
+2014-01-25 17:43:35 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,121333.086,V,N*75 ]
+2014-01-25 17:43:35 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:43:35 INFO  ServerThread:64 - Data Received is [ R,0003456041 ]
+2014-01-25 17:43:35 INFO  InsertRfidData:58 - RFID [ 0003456041] exists. with RFID Type [ Student ]
+2014-01-25 17:43:35 INFO  InsertRfidData:126 - Student Evening session cannot be inserted beacuse [ multiple RFID tapping ]
+2014-01-25 17:43:55 INFO  ServerThread:84 - Data Received is [ G,,,,,121353.086,V,N*73 ]
+2014-01-25 17:43:55 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,121353.086,V,N*73 ]
+2014-01-25 17:43:55 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:43:55 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 17:43:55 INFO  InsertRfidData:326 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 17:43:55 INFO  InsertRfidData:371 - Created Evening out bound for driver with RFID [ 0003477032 ]
+2014-01-25 17:43:55 INFO  InsertRfidData:372 - Today's session closed....
+2014-01-25 17:44:15 INFO  ServerThread:84 - Data Received is [ G,,,,,121413.086,V,N*70 ]
+2014-01-25 17:44:15 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,121413.086,V,N*70 ]
+2014-01-25 17:44:15 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:44:15 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:44:34 INFO  ServerThread:84 - Data Received is [ G,,,,,121432.086,V,N*73 ]
+2014-01-25 17:44:34 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,121432.086,V,N*73 ]
+2014-01-25 17:44:34 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:44:34 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:44:54 INFO  ServerThread:84 - Data Received is [ G,,,,,121452.086,V,N*75 ]
+2014-01-25 17:44:54 INFO  ProcessGPS:59 - Invalid GPRS Data [ G,,,,,121452.086,V,N*75 ]
+2014-01-25 17:44:54 INFO  ServerThread:90 - Invalid Data [    ]
+2014-01-25 17:44:54 INFO  ServerThread:61 - RFID is empty...
+2014-01-25 17:46:34 INFO  Main:33 - connection Established with --> /127.0.0.1:53917
+2014-01-25 17:46:34 INFO  ServerThread:64 - Data Received is [ R,0003477032 ]
+2014-01-25 17:46:34 INFO  InsertRfidData:326 - RFID [ 0003477032] exists. with RFID Type [ Driver ]
+2014-01-25 17:46:34 INFO  InsertRfidData:362 - Today's session closed cannot insert any data
+2014-01-25 17:46:34 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:53917 ] Thread-4 terminated abruptly
+2014-01-25 17:46:34 INFO  ServerThread:125 - Connection Closing..
+2014-01-25 17:47:09 INFO  Main:33 - connection Established with --> /127.0.0.1:53955
+2014-01-25 17:47:09 INFO  ServerThread:84 - Data Received is [ G,1746.6076,N,7847.6678,E ]
+2014-01-25 17:47:09 INFO  ProcessGPS:90 - Inserted GPS data --> Map [arrived_time=17:47:09, lat=+17.776792526245117, Long=+78.79446411132812]
+2014-01-25 17:47:09 INFO  ServerThread:103 - IO Error/ Client [/127.0.0.1:53955 ] Thread-5 terminated abruptly
+2014-01-25 17:47:09 INFO  ServerThread:125 - Connection Closing..

@@ -1,0 +1,63 @@
+2014-01-25 12:02:23 INFO  App:24 - created server --> server listening.....
+2014-01-25 12:06:31 INFO  App:24 - created server --> server listening.....
+2014-01-25 12:06:36 INFO  App:33 - connection Established with --> /127.0.0.1:41547
+2014-01-25 12:06:36 INFO  ServerThread:53 - Data Received is [ R,0004716436 ]
+2014-01-25 12:06:36 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 12:06:36 INFO  DriverRfid:30 - Query: { "_id" : "BUS_101:25-01-2014"}, Fields: null, Sort: { }
+2014-01-25 12:06:36 INFO  StudentMorningSession:31 - Query: { "_id" : "BUS_101:25-01-2014"}, Fields: null, Sort: { }
+2014-01-25 12:06:36 INFO  InsertRfidData:226 - Student morning in bound exists...
+2014-01-25 12:06:36 INFO  InsertRfidData:229 - Student Morning session cannot be inserted beacuse [ multiple RFID tapping ]
+2014-01-25 12:06:36 INFO  ServerThread:90 - IO Error/ Client [/127.0.0.1:41547 ] Thread-3 terminated abruptly
+2014-01-25 12:06:36 INFO  ServerThread:112 - Connection Closing..
+2014-01-25 12:08:50 INFO  App:27 - Cannot create server with port [ 10000 ] , PORT already in use!
+2014-01-25 12:08:52 INFO  App:33 - connection Established with --> /127.0.0.1:41554
+2014-01-25 12:08:52 INFO  ServerThread:53 - Data Received is [ R,0004716436 ]
+2014-01-25 12:08:52 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 12:08:52 INFO  DriverRfid:30 - Query: { "_id" : "BUS_101:25-01-2014"}, Fields: null, Sort: { }
+2014-01-25 12:08:52 INFO  StudentMorningSession:31 - Query: { "_id" : "BUS_101:25-01-2014"}, Fields: null, Sort: { }
+2014-01-25 12:08:52 INFO  InsertRfidData:226 - Student morning in bound exists...
+2014-01-25 12:08:52 INFO  InsertRfidData:229 - Student Morning session cannot be inserted beacuse [ multiple RFID tapping ]
+2014-01-25 12:08:52 INFO  ServerThread:90 - IO Error/ Client [/127.0.0.1:41554 ] Thread-4 terminated abruptly
+2014-01-25 12:08:52 INFO  ServerThread:112 - Connection Closing..
+2014-01-25 12:09:17 INFO  Main:24 - created server --> server listening.....
+2014-01-25 12:09:18 INFO  Main:33 - connection Established with --> /127.0.0.1:41556
+2014-01-25 12:09:19 INFO  ServerThread:53 - Data Received is [ R,0004716436 ]
+2014-01-25 12:09:19 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 12:09:19 INFO  DriverRfid:30 - Query: { "_id" : "BUS_101:25-01-2014"}, Fields: null, Sort: { }
+2014-01-25 12:09:19 INFO  StudentMorningSession:31 - Query: { "_id" : "BUS_101:25-01-2014"}, Fields: null, Sort: { }
+2014-01-25 12:09:19 INFO  InsertRfidData:229 - Student Morning session cannot be inserted beacuse [ multiple RFID tapping ]
+2014-01-25 12:09:19 INFO  ServerThread:90 - IO Error/ Client [/127.0.0.1:41556 ] Thread-3 terminated abruptly
+2014-01-25 12:09:19 INFO  ServerThread:112 - Connection Closing..
+2014-01-25 12:12:31 INFO  Main:27 - Cannot create server with port [ 10000 ] , PORT already in use!
+2014-01-25 12:12:34 INFO  Main:33 - connection Established with --> /127.0.0.1:41561
+2014-01-25 12:12:34 INFO  ServerThread:53 - Data Received is [ R,0004716436 ]
+2014-01-25 12:12:34 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 12:12:34 INFO  DriverRfid:30 - Query: { "_id" : "BUS_101:25-01-2014"}, Fields: null, Sort: { }
+2014-01-25 12:12:34 INFO  StudentMorningSession:31 - Query: { "_id" : "BUS_101:25-01-2014"}, Fields: null, Sort: { }
+2014-01-25 12:12:34 INFO  InsertRfidData:229 - Student Morning session cannot be inserted beacuse [ multiple RFID tapping ]
+2014-01-25 12:12:34 INFO  ServerThread:90 - IO Error/ Client [/127.0.0.1:41561 ] Thread-4 terminated abruptly
+2014-01-25 12:12:34 INFO  ServerThread:112 - Connection Closing..
+2014-01-25 12:12:39 INFO  Main:24 - created server --> server listening.....
+2014-01-25 12:12:41 INFO  Main:33 - connection Established with --> /127.0.0.1:41563
+2014-01-25 12:12:41 INFO  ServerThread:53 - Data Received is [ R,0004716436 ]
+2014-01-25 12:12:41 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 12:12:41 INFO  DriverRfid:30 - Query: { "_id" : "BUS_101:25-01-2014"}, Fields: null, Sort: { }
+2014-01-25 12:12:41 INFO  StudentMorningSession:31 - Query: { "_id" : "BUS_101:25-01-2014"}, Fields: null, Sort: { }
+2014-01-25 12:12:41 INFO  InsertRfidData:229 - Student Morning session cannot be inserted beacuse [ multiple RFID tapping ]
+2014-01-25 12:12:41 INFO  ServerThread:90 - IO Error/ Client [/127.0.0.1:41563 ] Thread-3 terminated abruptly
+2014-01-25 12:12:41 INFO  ServerThread:112 - Connection Closing..
+2014-01-25 12:13:09 INFO  Main:24 - created server --> server listening.....
+2014-01-25 12:13:10 INFO  Main:33 - connection Established with --> /127.0.0.1:41565
+2014-01-25 12:13:10 INFO  ServerThread:53 - Data Received is [ R,0004716436 ]
+2014-01-25 12:13:11 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 12:13:11 INFO  DriverRfid:30 - Query: { "_id" : "BUS_101:25-01-2014"}, Fields: null, Sort: { }
+2014-01-25 12:13:11 INFO  InsertRfidData:229 - Student Morning session cannot be inserted beacuse [ multiple RFID tapping ]
+2014-01-25 12:13:11 INFO  ServerThread:90 - IO Error/ Client [/127.0.0.1:41565 ] Thread-3 terminated abruptly
+2014-01-25 12:13:11 INFO  ServerThread:112 - Connection Closing..
+2014-01-25 12:13:31 INFO  Main:24 - created server --> server listening.....
+2014-01-25 12:13:32 INFO  Main:33 - connection Established with --> /127.0.0.1:41567
+2014-01-25 12:13:32 INFO  ServerThread:53 - Data Received is [ R,0004716436 ]
+2014-01-25 12:13:32 INFO  InsertRfidData:58 - RFID [ 0004716436] exists. with RFID Type [ Student ]
+2014-01-25 12:13:32 INFO  InsertRfidData:229 - Student Morning session cannot be inserted beacuse [ multiple RFID tapping ]
+2014-01-25 12:13:32 INFO  ServerThread:90 - IO Error/ Client [/127.0.0.1:41567 ] Thread-3 terminated abruptly
+2014-01-25 12:13:32 INFO  ServerThread:112 - Connection Closing..
